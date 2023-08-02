@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_degradado"
+    android:orientation="vertical"
+    tools:context=".liestview_mostrar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50px">
+
+        <TextView
+            android:id="@+id/bienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_toRightOf="@id/bienvenido"/>
+
+        <TextView
+            android:id="@+id/historial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Su historial de notas es:"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:layout_below="@+id/bienvenido"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lstcalificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

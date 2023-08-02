@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_degradado"
+    tools:context=".Pantalla2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universidad Tecnológica de Panamá"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facultad de Sistemas"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione su Perfil"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/rbgPestanas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/rbgEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sitio de Estudiante"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/rbgEstudianteSLU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sitio de Estudiante SLU"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbgProfesor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sitio de Profesor"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:textSize="25dp"
+        android:onClick="Entrar"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="45sp"
+        android:backgroundTint="#031BF4"/>
+
+</LinearLayout>

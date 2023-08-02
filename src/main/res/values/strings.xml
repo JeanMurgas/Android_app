@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Matricula_UTP</string>
+
+    <string-array name="spinnerMateria">
+        <item>Invs. Operc</item>
+        <item>Org. Comp</item>
+        <item>Desarrollo V</item>
+        <item>Desarrollo VI</item>
+        <item>Ing. Software</item>
+
+    </string-array>
+
+    <string-array name="spinnerSemestre">
+        <item>Semestre I</item>
+        <item>Semestre II</item>
+        <item>Semestre III</item>
+        <item>Semestre IV</item>
+        <item>Semestre V</item>
+        <item>Semestre VI</item>
+        <item>Semestre VII</item>
+        <item>Semestre VIII</item>
+
+    </string-array>
+
+</resources>
